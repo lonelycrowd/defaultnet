@@ -12,8 +12,8 @@
 
 3) Machine
 
-- [ ] Make base
-- [ ] Make general training tool
+- [x] Make base
+- [x] Make general training tool
 - [ ] Make general testing tool
 
 4) Losses
