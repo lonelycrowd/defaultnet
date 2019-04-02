@@ -1,7 +1,8 @@
 import torch
 import torch.nn as nn
 
-from ..conv import Conv2dBatchLeaky,Conv2dBatchDefLeaky
+from ..conv import Conv2dBatchLeaky
+from ..specific import Conv2dBatchDefLeaky
 
 
 class Head(nn.Module):

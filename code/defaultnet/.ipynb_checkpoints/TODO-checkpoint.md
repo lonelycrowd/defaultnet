@@ -1,22 +1,25 @@
 1) Models
 
-- [ ] To write base model
+- [x] To write base model
+- [x] To write sketch of the model
 
 2) Network
 
 - [x] Base layers
-- [ ] Some general stage blocks
-- [ ] default head
-- [ ] default backbone
+- [x] Some general stage blocks (parts of yolov3)
+- [x] default head (yolo)
+- [x] default backbone (yolo)
 
 3) Machine
 
+- [ ] Make base
 - [ ] Make general training tool
 - [ ] Make general testing tool
 
 4) Losses
 
-- [ ] To realize some standard losses like for SSD or YOLO
+- [x] To realize some standard losses like for SSD or YOLO (yolo, not good)
+- [ ] Some base loss with different modules appliable (focalloss, switch between binary crossentropy and softmax...).
 
 5) Data
 
